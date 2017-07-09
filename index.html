@@ -10,6 +10,9 @@
   <title></title>
 </head>
 <body>
+  <div id="escape">
+    <button>Exit to Escape</button>
+  </div>
   <div class="opening-menu">
     <h2>Why are you here?</h2>
     <button class="opening-button" id="need-help">I need help</button>
@@ -37,6 +40,14 @@
     
   </div>
 
+  
+
 
 </body>
+<link href="https://api.motion.ai/sdk/webchat.css" rel="stylesheet" type="text/css">
+<script src="https://api.motion.ai/sdk/webchat.js"></script>
+<script>
+   motionAI_Init('68924?color=3588eb&sendBtn=SEND&inputBox=Type%20something...&token=d0d8b6643f54e1929dce257e3fadb44e',true,400,470,'https://api.motion.ai/sdk/botbtn.png');
+   /* You may also invoke motionAI_Open() to manually open the modal. */
+</script>
 </html>

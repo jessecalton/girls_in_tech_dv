@@ -16,3 +16,9 @@ $(function(){
     $('.types-of-help').append(r);
     });
 }); 
+
+$(function(){ 
+  $('#escape').on('click',function(){
+    location.replace("https://www.w3schools.com")
+}); 
+});
