@@ -1,26 +1,37 @@
 
 $(function(){ 
   $('button#need-help').on('click',function(){
-    $('.types-of-help').show();
+    $('.types-of-help').toggle();
     $('.need-help').hide();
     });
 });
 $(function(){ 
   $('button#know-someone').on('click',function(){
-    $('.types-of-help').show();
+    $('.types-of-help').toggle();
     $('.need-help').hide();
     });
 }); 
 $(function(){ 
   $('button#dont-know').on('click',function(){
-    $('.need-help').show();
+    $('.need-help').toggle();
     $('.types-of-help').hide();
     });
 }); 
 
 $(function(){ 
   $('button#housing-button').on('click',function(){
-    $('#shelter-housing').show();
+    $('#shelter-housing').toggle();
+    $('#legal-issues').hide();
+    $('#chatbot-locator').hide();
+
+    });
+}); 
+
+$(function(){ 
+  $('button#legal-button').on('click',function(){
+    $('#legal-issues').toggle();
+    $('#shelter-housing').hide();
+    $('#chatbot-locator').hide();
     });
 }); 
 
@@ -30,6 +41,7 @@ $(function(){
     e.preventDefault()
     $('form').hide();
     $('p').hide();
+
     var r = "<p>Thank you for that information!</p>";
     $('#shelter-housing').append(r);
 
@@ -39,6 +51,8 @@ $(function(){
 $(function(){ 
   $('button#chatbot-button').on('click',function(){
     $('#chatbot-locator').show();
+    $('#legal-issues').hide();
+    $('#shelter-housing').hide();
     });
 }); 
 
