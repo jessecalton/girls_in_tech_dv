@@ -11,14 +11,28 @@
   <title></title>
 </head>
 <body>
-  <div id="escape">
-    <button class="escape-button">Exit to Escape</button>
-  </div>
+
+    <header id="header">
+      <h1>Bay Area Support</h1>
+      <div id="about-us"><a href="aboutus.html">Who We Are</a></div>
+      <nav id ="nav" class="navbar navbar-default navbar-fixed-top">
+      <ul>
+        <span>
+
+        <div id="escape">
+          <img rel class ="escape-button" src="ESCAPE LOGO.png"  alt="icon">
+        </div>
+
+        </span>
+      </ul>
+      </nav>
+    </header>
+
   <div class="opening-menu">
-    <h2>Why are you here?</h2>
+    <h2>Hi there. How can we help you?</h2>
     <button class="opening-button" id="need-help">I need help</button>
     <button class="opening-button" id="know-someone">I know someone who needs help</button>
-    <button class="opening-button" id="dont-know">I don't know what to do.</button>
+    <button class="opening-button" id="dont-know">I want to help</button>
     <!-- Why are you here? -->
   </div>
   <div class="need-help">
@@ -37,7 +51,29 @@
     <button class="second-level-button" id="housing-button">Shelter and Housing</button>
     <br>
       <div id="shelter-housing">
-      <p>Can you give us more detail about your situation?</p>
+        <div id="housing-results">
+            <h3>Shelters near your area</h3>
+            <div id="housing-1">
+              <h4>A Woman's Place</h4>
+                <p>Emergency shelter, same day, women only</p>
+                <p>415-487-2140</p>
+                <p>1049 Howard St, San Francisco, CA 94103</p>
+            </div>
+            <div id="housing-2">
+              <h4>Safe House</h4>
+                <p>Transitional housing for sex traffic victims, women only, no children</p>
+                <p>415-781-5050</p>
+            </div>
+            <div id="housing-3">
+              <h4>Asian Women’s Shelter</h4>
+                <p>Transitional housing focused on Asian Pacific Islanders, children allowed</p>
+                <p>415-751-7110</p>
+                <p>3543 18th St #19, San Francisco, CA 94110</p>
+            </div>
+        </div>
+        <button class="second-level-button" id="filter-button">Filter your search</button>
+      <div id="search-form">
+      <p id="title">Can you give us more detail about your situation?</p>
       <form>
         <div id="form-1">
         <label>Distance: <br>
@@ -66,18 +102,29 @@
           <input type="checkbox" name="gender" value="short-term">Short Term <br>
         <button type="submit">Submit</button>
       </form>
-      
+      </label>
+      </div>
       </div>
     <button class="second-level-button" id="legal-button">Help With Legal Issues</button><br>
+
       <div id="legal-issues">
       <p><a href="http://www.courts.ca.gov/1264.htm">Click here for help with filing a restraining order. It's your right.</a></p>
       </div>
+
     <button class="second-level-button" id="counseling-button">Counseling Support</button>
+
+
       <div id="counseling-support">
       </div>
+
+
     <button class="second-level-button" id="economic-assistance-button">Economic Assistance</button>
+
+
       <div id="economic-assistance">
       </div>
+
+
     <button class="second-level-button" id="chatbot-button">I Would Like to Talk to Someone</button>
       <div id="chatbot-locator">
         <div>&emsp;</div>
@@ -99,4 +146,11 @@
    motionAI_Init('68924?color=3588eb&sendBtn=SEND&inputBox=Type%20something...&token=d0d8b6643f54e1929dce257e3fadb44e',true,400,470,'https://api.motion.ai/sdk/botbtn.png');
    /* You may also invoke motionAI_Open() to manually open the modal. */
 </script>
+
+<footer>
+  <div class="footer">
+  <p>Ending Domestic Violence Together: Jennifer Plath, Bonnie Shih, Anju Mercian, Satoe Yokoyama, Jesse Calton </p>
+  </div>
+</footer>
+
 </html>

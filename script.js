@@ -1,3 +1,7 @@
+window.onload = function() {
+    alert("Click on the ESCAPE button in the top right-hand corner anytime you need to leave this page")
+}
+
 
 $(function(){ 
   $('button#need-help').on('click',function(){
@@ -25,6 +29,20 @@ $(function(){
     $('#chatbot-locator').hide();
 
     });
+});
+
+$(function(){ 
+  $('button#filter-button').on('click',function(){
+    $('#search-form').toggle();
+
+    });
+}); 
+
+$(function(){ 
+  $('#about-us').on('click',function(){
+    $('#about-description').toggle()
+
+    });
 }); 
 
 $(function(){ 
@@ -40,10 +58,8 @@ $(function(){
     // This is set up for AJAX. For now it does a fake ajax call for demo purposes
     e.preventDefault()
     $('form').hide();
-    $('p').hide();
-
-    var r = "<p>Thank you for that information!</p>";
-    $('#shelter-housing').append(r);
+    $('p#title').hide();
+    $('#housing-results').show();
 
     });
 });
@@ -53,12 +69,13 @@ $(function(){
     $('#chatbot-locator').show();
     $('#legal-issues').hide();
     $('#shelter-housing').hide();
+    $('.footer').hide();
     });
 }); 
 
 
 $(function(){ 
   $('#escape').on('click',function(){
-    location.replace("https://www.w3schools.com")
+    location.replace("https://www.weather.com")
 }); 
 });
