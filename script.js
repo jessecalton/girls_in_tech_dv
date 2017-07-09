@@ -1,3 +1,7 @@
+window.onload = function() {
+    alert("Click on the ESCAPE button in the top right-hand corner anytime you need to leave this page")
+}
+
 
 $(function(){ 
   $('button#need-help').on('click',function(){
@@ -65,12 +69,13 @@ $(function(){
     $('#chatbot-locator').show();
     $('#legal-issues').hide();
     $('#shelter-housing').hide();
+    $('.footer').hide();
     });
 }); 
 
 
 $(function(){ 
   $('#escape').on('click',function(){
-    location.replace("https://www.w3schools.com")
+    location.replace("https://www.weather.com")
 }); 
 });

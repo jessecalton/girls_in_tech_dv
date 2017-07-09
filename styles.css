@@ -1,11 +1,15 @@
 * {
   font-family: 'Nobile', sans-serif;
 }
+
+
 body{
     display: block;
 
-    /*background-image: url("people.jpeg");*/
-    background-repeat: no-repeat;
+    background-image: url("background_1.png");
+    background-size:     cover;
+    background-position: center;
+
 
 }
 
@@ -190,4 +194,12 @@ label {
 
 }
 
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
 
+  text-align: center;
+}
