@@ -2,6 +2,7 @@
 <html>
 <head>
   <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Nobile" rel="stylesheet">
   <script
   src="https://code.jquery.com/jquery-3.2.1.js"
   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
@@ -10,6 +11,9 @@
   <title></title>
 </head>
 <body>
+  <div id="escape">
+    <button class="escape-button">Exit to Escape</button>
+  </div>
   <div class="opening-menu">
     <h2>Why are you here?</h2>
     <button class="opening-button" id="need-help">I need help</button>
@@ -17,26 +21,82 @@
     <button class="opening-button" id="dont-know">I don't know what to do.</button>
     <!-- Why are you here? -->
   </div>
+  <div class="need-help">
+    <h3>Assess Your Safety:</h3>
+      <ul id="bullet-points">
+        <li>Are you afraid to go home?</li>
+        <li>Have there been threats of homicide or suicide?</li>
+        <li>Are there weapons present?</li>
+        <li>Can you stay with family or friends?</li>
+        <li>Do you need access to shelter?</li>
+        <li>Do you want police intervention?</li>
+      </ul>
+      <p>Source: <a href="https://www.sfdph.org/dph/comupg/oprograms/PHP/domesticViolence.asp">SF Dept. of Public Health</a></p>
+  </div>
   <div class="types-of-help">
-    <div id="shelter-housing">
-      <button class="second-level-button" id="housing-button">Shelter and Housing</button>
-      <!-- Resources for finding shelter or housing -->
-    </div>
-    <div id="legal-issues">
-      <!-- Information on getting legal help -->
-    </div>
-    <div id="counseling-support">
+    <button class="second-level-button" id="housing-button">Shelter and Housing</button>
+    <br>
+      <div id="shelter-housing">
+      <p>Can you give us more detail about your situation?</p>
+      <form>
+        <div id="form-1">
+        <label>Distance: <br>
+          <input type="checkbox" name="distance" value="5 miles">5 Miles <br>
+
+          <input type="checkbox" name="distance" value="10 miles">10 Miles<br>
+          <input type="checkbox" name="distance" value="15 miles">15 Miles<br>
+          <input type="checkbox" name="distance" value="20 miles">20 Miles
+        </label>
+        </div>
+        <p>&emsp;</p>
+        <div id="form-2">
+        <label>Do you have children? <br>
+          <input type="checkbox" name="children" value="yes">Yes <br>
+          <input type="checkbox" name="children" value="no">No
+        </label>
+        </div>
+        <label>Gender:<br>
+          <input type="checkbox" name="gender" value="male">Male <br>
+          <input type="checkbox" name="gender" value="female">Female <br>
+          <input type="checkbox" name="gender" value="other">Other <br>
+
+        </label>
+        <label>Duration of Stay:<br>
+          <input type="checkbox" name="gender" value="long-term">Long Term <br>
+          <input type="checkbox" name="gender" value="short-term">Short Term <br>
+        <button type="submit">Submit</button>
+      </form>
       
-    </div>
-    <div id="economic-assistance">
-      
-    </div>
-    <div id="need-chatbot">
-      
+      </div>
+    <button class="second-level-button" id="legal-button">Help With Legal Issues</button><br>
+      <div id="legal-issues">
+      <p><a href="http://www.courts.ca.gov/1264.htm">Click here for help with filing a restraining order. It's your right.</a></p>
+      </div>
+    <button class="second-level-button" id="counseling-button">Counseling Support</button>
+      <div id="counseling-support">
+      </div>
+    <button class="second-level-button" id="economic-assistance-button">Economic Assistance</button>
+      <div id="economic-assistance">
+      </div>
+    <button class="second-level-button" id="chatbot-button">I Would Like to Talk to Someone</button>
+      <div id="chatbot-locator">
+        <div>&emsp;</div>
+        <div>&emsp;</div>
+        <p>Click here to have a confidential chat with our service &emsp; &emsp;
+        <!-- <span>→</span> -->
+        </p>
+        <img src="arrow.png">
+        </div>
     </div>
     
   </div>
 
 
 </body>
+<link href="https://api.motion.ai/sdk/webchat.css" rel="stylesheet" type="text/css">
+<script src="https://api.motion.ai/sdk/webchat.js"></script>
+<script>
+   motionAI_Init('68924?color=3588eb&sendBtn=SEND&inputBox=Type%20something...&token=d0d8b6643f54e1929dce257e3fadb44e',true,400,470,'https://api.motion.ai/sdk/botbtn.png');
+   /* You may also invoke motionAI_Open() to manually open the modal. */
+</script>
 </html>
