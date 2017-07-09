@@ -25,6 +25,13 @@ $(function(){
     $('#chatbot-locator').hide();
 
     });
+});
+
+$(function(){ 
+  $('button#filter-button').on('click',function(){
+    $('#search-form').toggle();
+
+    });
 }); 
 
 $(function(){ 
@@ -40,10 +47,8 @@ $(function(){
     // This is set up for AJAX. For now it does a fake ajax call for demo purposes
     e.preventDefault()
     $('form').hide();
-    $('p').hide();
-
-    var r = "<p>Thank you for that information!</p>";
-    $('#shelter-housing').append(r);
+    $('p#title').hide();
+    $('#housing-results').show();
 
     });
 });

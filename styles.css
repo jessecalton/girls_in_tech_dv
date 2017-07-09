@@ -46,6 +46,14 @@ label {
   margin-bottom: 20px;
 }
 
+#search-form {
+  display: none;
+}
+
+#housing-results{
+  display: block;
+}
+
 .need-help{
   display: none;
   text-align: left;
