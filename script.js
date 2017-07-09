@@ -19,6 +19,12 @@ $(function(){
 }); 
 
 $(function(){ 
+  $('button#housing-button').on('click',function(){
+    $('#shelter-housing').show();
+    });
+}); 
+
+$(function(){ 
   $('button#chatbot-button').on('click',function(){
     $('#chatbot-locator').show();
     });

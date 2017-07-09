@@ -34,22 +34,39 @@
       <p>Source: <a href="https://www.sfdph.org/dph/comupg/oprograms/PHP/domesticViolence.asp">SF Dept. of Public Health</a></p>
   </div>
   <div class="types-of-help">
-    <div id="shelter-housing">
-      <button class="second-level-button" id="housing-button">Shelter and Housing</button>
-      <!-- Resources for finding shelter or housing -->
-    </div>
-    <div id="legal-issues">
-      <button class="second-level-button" id="legal-button">Help With Legal Issues</button>
+    <button class="second-level-button" id="housing-button">Shelter and Housing</button>
+    <br>
+      <div id="shelter-housing">
+      <p>Can you give us more detail about your situation?</p>
+      <form>
+        <label>
+          <input type="checkbox" name="children">Do you have children?
+        </label>
+        <label>
+          <input type="checkbox" name="pets">Do you have any pets?
+        </label>
+        <label for="age">What is your age: 
+        <input id="age" type="text" name="name"> </label>
+        <label>
+        Do you have ready access to transportation?
+        <input type="radio" name="transportation" value="yes"> Yes
+        <input type="radio" name="transportation" value="no"> No<br>
+        </label>
+        <button type="submit">Submit</button>
+      </form>
+      
+      </div>
+    <button class="second-level-button" id="legal-button">Help With Legal Issues</button>
+      <div id="legal-issues">
       <!-- Information on getting legal help -->
-    </div>
-    <div id="counseling-support">
-      <button class="second-level-button" id="counseling-button">Counseling Support</button>
-    </div>
-    <div id="economic-assistance">
-      <button class="second-level-button" id="economic-assistance-button">Economic Assistance</button>
-    </div>
-    <div id="need-chatbot">
-      <button class="second-level-button" id="chatbot-button">I Would Like to Talk to Someone</button>
+      </div>
+    <button class="second-level-button" id="counseling-button">Counseling Support</button>
+      <div id="counseling-support">
+      </div>
+    <button class="second-level-button" id="economic-assistance-button">Economic Assistance</button>
+      <div id="economic-assistance">
+      </div>
+    <button class="second-level-button" id="chatbot-button">I Would Like to Talk to Someone</button>
       <div id="chatbot-locator">
         <div>&emsp;</div>
         <div>&emsp;</div>
@@ -58,7 +75,6 @@
         </p>
         <img src="arrow.png">
         </div>
-      </div>
     </div>
     
   </div>

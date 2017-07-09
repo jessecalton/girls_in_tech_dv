@@ -17,6 +17,19 @@ body {
 
 }
 
+#shelter-housing{
+  display: none;
+  width: 100%;
+  border: 25px solid green;
+  padding: 25px;
+  margin: 0px;
+}
+
+label {
+  display: block;
+  margin-bottom: 20px;
+}
+
 .need-help{
   display: none;
   text-align: left;
