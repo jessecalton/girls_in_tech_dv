@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet" href="styles.css">
   <script
   src="https://code.jquery.com/jquery-3.2.1.js"
   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
@@ -11,13 +12,14 @@
 <body>
   <div class="opening-menu">
     <h2>Why are you here?</h2>
-    <button id="need-help">I need help</button>
-    <button name="know-someone">I know someone who needs help</button>
-    <button name="dont-know">I don't know what to do.</button>
+    <button class="opening-button" id="need-help">I need help</button>
+    <button class="opening-button" id="know-someone">I know someone who needs help</button>
+    <button class="opening-button" id="dont-know">I don't know what to do.</button>
     <!-- Why are you here? -->
   </div>
   <div class="types-of-help">
     <div id="shelter-housing">
+      <button class="second-level-button" id="housing-button">Shelter and Housing</button>
       <!-- Resources for finding shelter or housing -->
     </div>
     <div id="legal-issues">
