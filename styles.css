@@ -14,6 +14,7 @@ body {
   display: none;
   margin: 0 auto;
   text-align: center;
+
 }
 
 .need-help{
@@ -37,18 +38,30 @@ body {
   height: 100px;
   width: 100%;
   background-color:pink;
-  text-align: center;
+
 }
 
 #chatbot-locator p{
-  font-size: 1.2em;
+  display: inline;
+  text-align: center;
+  max-width: 500px;
+  margin-top: 20px;
+
+  font-size: 1.3em;
+
 }
 
-#chatbot-locator span{
+#chatbot-locator img{
+  max-height: 100px;
+  position: fixed;
+  bottom: 0px;
+}
+
+/*#chatbot-locator span{
   font-size: 2em;
   margin-left: 40px;
 
-}
+}*/
 
 /*buttons*/
 
@@ -62,6 +75,7 @@ body {
 .second-level-button{
   padding: 10px;
   margin: 10px;
+  font-size: 1.0em;
 
 }
 
