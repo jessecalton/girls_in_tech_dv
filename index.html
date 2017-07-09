@@ -2,6 +2,7 @@
 <html>
 <head>
   <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Nobile" rel="stylesheet">
   <script
   src="https://code.jquery.com/jquery-3.2.1.js"
   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
@@ -10,33 +11,146 @@
   <title></title>
 </head>
 <body>
+
+    <header id="header">
+      <h1>Bay Area Support</h1>
+      <div id="about-us"><a href="aboutus.html">Who We Are</a></div>
+      <nav id ="nav" class="navbar navbar-default navbar-fixed-top">
+      <ul>
+        <span>
+
+        <div id="escape">
+          <img rel class ="escape-button" src="ESCAPE LOGO.png"  alt="icon">
+        </div>
+
+        </span>
+      </ul>
+      </nav>
+    </header>
+
   <div class="opening-menu">
-    <h2>Why are you here?</h2>
+    <h2>Hi there. How can we help you?</h2>
     <button class="opening-button" id="need-help">I need help</button>
     <button class="opening-button" id="know-someone">I know someone who needs help</button>
-    <button class="opening-button" id="dont-know">I don't know what to do.</button>
+    <button class="opening-button" id="dont-know">I want to help</button>
     <!-- Why are you here? -->
   </div>
+  <div class="need-help">
+    <h3>Assess Your Safety:</h3>
+      <ul id="bullet-points">
+        <li>Are you afraid to go home?</li>
+        <li>Have there been threats of homicide or suicide?</li>
+        <li>Are there weapons present?</li>
+        <li>Can you stay with family or friends?</li>
+        <li>Do you need access to shelter?</li>
+        <li>Do you want police intervention?</li>
+      </ul>
+      <p>Source: <a href="https://www.sfdph.org/dph/comupg/oprograms/PHP/domesticViolence.asp">SF Dept. of Public Health</a></p>
+  </div>
   <div class="types-of-help">
-    <div id="shelter-housing">
-      <button class="second-level-button" id="housing-button">Shelter and Housing</button>
-      <!-- Resources for finding shelter or housing -->
-    </div>
-    <div id="legal-issues">
-      <!-- Information on getting legal help -->
-    </div>
-    <div id="counseling-support">
-      
-    </div>
-    <div id="economic-assistance">
-      
-    </div>
-    <div id="need-chatbot">
-      
+    <button class="second-level-button" id="housing-button">Shelter and Housing</button>
+    <br>
+      <div id="shelter-housing">
+        <div id="housing-results">
+            <h3>Shelters near your area</h3>
+            <div id="housing-1">
+              <h4>A Woman's Place</h4>
+                <p>Emergency shelter, same day, women only</p>
+                <p>415-487-2140</p>
+                <p>1049 Howard St, San Francisco, CA 94103</p>
+            </div>
+            <div id="housing-2">
+              <h4>Safe House</h4>
+                <p>Transitional housing for sex traffic victims, women only, no children</p>
+                <p>415-781-5050</p>
+            </div>
+            <div id="housing-3">
+              <h4>Asian Women’s Shelter</h4>
+                <p>Transitional housing focused on Asian Pacific Islanders, children allowed</p>
+                <p>415-751-7110</p>
+                <p>3543 18th St #19, San Francisco, CA 94110</p>
+            </div>
+        </div>
+        <button class="second-level-button" id="filter-button">Filter your search</button>
+      <div id="search-form">
+      <p id="title">Can you give us more detail about your situation?</p>
+      <form>
+        <div id="form-1">
+        <label>Distance: <br>
+          <input type="checkbox" name="distance" value="5 miles">5 Miles <br>
+
+          <input type="checkbox" name="distance" value="10 miles">10 Miles<br>
+          <input type="checkbox" name="distance" value="15 miles">15 Miles<br>
+          <input type="checkbox" name="distance" value="20 miles">20 Miles
+        </label>
+        </div>
+        <p>&emsp;</p>
+        <div id="form-2">
+        <label>Do you have children? <br>
+          <input type="checkbox" name="children" value="yes">Yes <br>
+          <input type="checkbox" name="children" value="no">No
+        </label>
+        </div>
+        <label>Gender:<br>
+          <input type="checkbox" name="gender" value="male">Male <br>
+          <input type="checkbox" name="gender" value="female">Female <br>
+          <input type="checkbox" name="gender" value="other">Other <br>
+
+        </label>
+        <label>Duration of Stay:<br>
+          <input type="checkbox" name="gender" value="long-term">Long Term <br>
+          <input type="checkbox" name="gender" value="short-term">Short Term <br>
+        <button type="submit">Submit</button>
+      </form>
+      </label>
+      </div>
+      </div>
+    <button class="second-level-button" id="legal-button">Help With Legal Issues</button><br>
+
+      <div id="legal-issues">
+      <p><a href="http://www.courts.ca.gov/1264.htm">Click here for help with filing a restraining order. It's your right.</a></p>
+      </div>
+
+    <button class="second-level-button" id="counseling-button">Counseling Support</button>
+
+
+      <div id="counseling-support">
+      </div>
+
+
+    <button class="second-level-button" id="economic-assistance-button">Economic Assistance</button>
+
+
+      <div id="economic-assistance">
+      </div>
+
+
+    <button class="second-level-button" id="chatbot-button">I Would Like to Talk to Someone</button>
+      <div id="chatbot-locator">
+        <div>&emsp;</div>
+        <div>&emsp;</div>
+        <p>Click here to have a confidential chat with our service &emsp; &emsp;
+        <!-- <span>→</span> -->
+        </p>
+        <img src="arrow.png">
+        </div>
     </div>
     
   </div>
 
 
 </body>
+<link href="https://api.motion.ai/sdk/webchat.css" rel="stylesheet" type="text/css">
+<script src="https://api.motion.ai/sdk/webchat.js"></script>
+<script>
+   motionAI_Init('68924?color=3588eb&sendBtn=SEND&inputBox=Type%20something...&token=d0d8b6643f54e1929dce257e3fadb44e',true,400,470,'https://api.motion.ai/sdk/botbtn.png');
+   /* You may also invoke motionAI_Open() to manually open the modal. */
+</script>
+
+<footer>
+  <div class="footer">
+  <p>Ending Domestic Violence Together: Jennifer Plath, Bonnie Shih, Anju Mercian, Satoe Yokoyama, Jesse Calton </p>
+  </div>
+</footer>
+
 </html>
