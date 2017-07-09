@@ -7,18 +7,23 @@ $(function(){
   $('button#need-help').on('click',function(){
     $('.types-of-help').toggle();
     $('.need-help').hide();
+    $('.opening-menu h2').html("What kind of help are you looking for?")
+    $('.footer').hide();
     });
 });
 $(function(){ 
   $('button#know-someone').on('click',function(){
     $('.types-of-help').toggle();
     $('.need-help').hide();
+    $('.opening-menu h2').html("What kind of help are you looking for?")
+    $('.footer').hide();
     });
 }); 
 $(function(){ 
   $('button#dont-know').on('click',function(){
     $('.need-help').toggle();
     $('.types-of-help').hide();
+    $('.footer').hide();
     });
 }); 
 
