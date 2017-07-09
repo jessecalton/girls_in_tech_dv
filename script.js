@@ -35,6 +35,13 @@ $(function(){
 }); 
 
 $(function(){ 
+  $('#about-us').on('click',function(){
+    $('#about-description').toggle()
+
+    });
+}); 
+
+$(function(){ 
   $('button#legal-button').on('click',function(){
     $('#legal-issues').toggle();
     $('#shelter-housing').hide();
