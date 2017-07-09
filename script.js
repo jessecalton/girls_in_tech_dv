@@ -25,6 +25,18 @@ $(function(){
 }); 
 
 $(function(){ 
+  $('#shelter-housing form').on('submit',function(e){
+    // This is set up for AJAX. For now it does a fake ajax call for demo purposes
+    e.preventDefault()
+    $('form').hide();
+    $('p').hide();
+    var r = "<p>Thank you for that information!</p>";
+    $('#shelter-housing').append(r);
+
+    });
+});
+
+$(function(){ 
   $('button#chatbot-button').on('click',function(){
     $('#chatbot-locator').show();
     });
