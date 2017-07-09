@@ -1,3 +1,33 @@
-#shelter-housing{
+.opening-menu{
+  text-align: center;
+  margin: 0 auto;
+  border: solid;
+  border-color: green;
+}
+
+
+.types-of-help{
   display: none;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.need-help{
+  display: none;
+  text-align: center;
+}
+
+/*buttons*/
+
+.opening-button{
+  font-family: 'Nobile', sans-serif;
+  font-size: 1.2em;
+  padding: 10px;
+  margin: 10px;
+}
+
+.second-level-button{
+  padding: 10px;
+  margin: 10px;
+
 }

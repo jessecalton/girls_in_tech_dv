@@ -1,18 +1,19 @@
 
 $(function(){ 
   $('button#need-help').on('click',function(){
-    var r = $('<p>This works</p>')
-    $('.types-of-help').append(r);
+    $('.types-of-help').show();
+    $('.need-help').hide();
     });
 });
 $(function(){ 
   $('button#know-someone').on('click',function(){
-    $('#shelter-housing').toggle();
+    $('.types-of-help').show();
+    $('.need-help').hide();
     });
 }); 
 $(function(){ 
   $('button#dont-know').on('click',function(){
-    var r = $('<p>This works</p>')
-    $('.types-of-help').append(r);
+    $('.need-help').show();
+    $('.types-of-help').hide();
     });
 }); 
