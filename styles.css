@@ -14,7 +14,15 @@
 
 .need-help{
   display: none;
-  text-align: center;
+  text-align: left;
+  margin-left: 40%;
+}
+
+#bullet-points{
+  display: inline;
+  font-family: 'Nobile', sans-serif;
+  line-height: 35px;
+  font-size: 1.2em;
 }
 
 /*buttons*/
@@ -30,4 +38,9 @@
   padding: 10px;
   margin: 10px;
 
+}
+
+.escape-button{
+  padding: 10px;
+  margin: 10px;
 }
