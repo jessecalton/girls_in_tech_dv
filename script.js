@@ -17,6 +17,14 @@ $(function(){
     $('.types-of-help').hide();
     });
 }); 
+
+$(function(){ 
+  $('button#chatbot-button').on('click',function(){
+    $('#chatbot-locator').show();
+    });
+}); 
+
+
 $(function(){ 
   $('#escape').on('click',function(){
     location.replace("https://www.w3schools.com")

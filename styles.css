@@ -1,3 +1,7 @@
+body {
+  font-family: 'Nobile', sans-serif;
+}
+
 .opening-menu{
   text-align: center;
   margin: 0 auto;
@@ -23,6 +27,27 @@
   font-family: 'Nobile', sans-serif;
   line-height: 35px;
   font-size: 1.2em;
+}
+
+#chatbot-locator{
+  display: none;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 100px;
+  width: 100%;
+  background-color:pink;
+  text-align: center;
+}
+
+#chatbot-locator p{
+  font-size: 1.2em;
+}
+
+#chatbot-locator span{
+  font-size: 2em;
+  margin-left: 40px;
+
 }
 
 /*buttons*/
