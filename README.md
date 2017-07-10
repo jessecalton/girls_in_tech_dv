@@ -3,7 +3,10 @@
 ### This project was built by a team of 5 engineers and designers during a hackathon hosted by [Hacking For Humanity and Girls in Tech](http://hackingforhumanity.girlsintech.org/) 👩‍🎤
 ---
 ### About 
-* Built for domestic abuse victims who may have been denied regular computer access and the right to private browsing.
+
+* A web page designed for victims of domestic abuse to find resources to develop a safety plan, escape their abusers, and live fulfilling and abuse-free lives
+
+* Built for individuals who may have been denied regular computer access and the right to private browsing.
 
 * We designed with a focus on user-friendliness and privacy, thus the site is free of any persistent data, and is kept to one dynamically-loading page.
 
