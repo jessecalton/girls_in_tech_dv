@@ -10,7 +10,7 @@
 * Provides an escape button that reroutes the user to weather.com and disables the browser's back button.
 ---
 
-## <div style="text-align: left"> Collaborators </div>
+## <div style="text-align: left"> Collaborators ✌️ </div>
 <img src="hackathon-team.png" alt="Drawing" width="450" align="right"/>
 
 * [Jennifer Plath](https://www.linkedin.com/in/jenniferplath/)
