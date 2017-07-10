@@ -22,7 +22,7 @@
 ### Who We Are:
 > We are dedicated to helping victims of domestic abuse develop a safety plan, escape their abusers, and live fulfilling and abuse-free lives. We aim to put victims in touch with needed resources, by making resources easy to find, and providing helpful advice along the way.
 
-## Deployment
+## Deployment 👩‍💻
 
 The current application can be viewed by visiting:
 
