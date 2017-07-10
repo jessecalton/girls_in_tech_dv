@@ -21,3 +21,13 @@ The current application can be viewed by visiting:
 
 <https://www.bay-area-help.herokuapp.com>
 
+---
+
+## Tech Stack
+
+* HTML5
+* CSS3
+* JavaScript
+* jQuery
+* Motion AI Chatbot
+
