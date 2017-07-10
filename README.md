@@ -1,4 +1,4 @@
-# Bay Area Help
+# Bay Area Help 🤝
 
 ### This project was built by a team of 5 engineers and designers during a hackathon hosted by [Hacking For Humanity and Girls in Tech](http://hackingforhumanity.girlsintech.org/) 👩‍🎤
 ---
