@@ -1,6 +1,6 @@
 # Bay Area Help
 
-### This project was built by a team of 5 engineers and designers during a hackathon hosted by [Hacking For Humanity and Girls in Tech 👩‍🎤](http://hackingforhumanity.girlsintech.org/) 
+### This project was built by a team of 5 engineers and designers during a hackathon hosted by [💗Hacking For Humanity💗 and 👩‍🎤Girls in Tech 👩‍🎤](http://hackingforhumanity.girlsintech.org/) 
 ---
 ### About
 * Built for domestic abuse victims who may have been denied regular computer access and the right to private browsing.
