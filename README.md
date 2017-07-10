@@ -2,6 +2,13 @@
 
 ### This project was built by a team of 5 engineers and designers during a hackathon hosted by [Hacking For Humanity and Girls in Tech](http://hackingforhumanity.girlsintech.org/) 
 ---
+### About
+* Built for domestic abuse victims who may have been denied regular computer access and the right to private browsing.
+
+* We designed with a focus on user-friendliness and privacy, thus the site is free of any persistent data, and is kept to one dynamically-loading page.
+
+* Provides an escape button that reroutes the user to weather.com and disables the browser's back button.
+---
 
 ## <div style="text-align: left"> Collaborators </div>
 <img src="hackathon-team.png" alt="Drawing" width="450" align="right"/>
