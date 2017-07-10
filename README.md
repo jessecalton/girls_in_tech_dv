@@ -29,5 +29,5 @@ The current application can be viewed by visiting:
 * CSS3
 * JavaScript
 * jQuery
-* Motion AI Chatbot
+* [Motion AI Chatbot](https://www.motion.ai/)
 
