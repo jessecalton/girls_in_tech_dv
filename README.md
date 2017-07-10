@@ -1,6 +1,6 @@
 # Bay Area Help
 
-Hackathon project for Girls in Tech related to helping victims of domestic violence
+This project was built by a team of 5 engineers and designers during a hackathon hosted by [Hacking For Humanity and Girls in Tech](http://hackingforhumanity.girlsintech.org/) 
 
 ![Home](hackathon-team.png)
 
