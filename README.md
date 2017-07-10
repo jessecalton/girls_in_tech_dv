@@ -12,7 +12,8 @@
 * [Satoe Yokoyama](https://www.linkedin.com/in/ysbmk/)
 * [Anju Mercian](https://www.linkedin.com/in/anjumercian/)
 
-We are dedicated to helping victims of domestic abuse develop a safety plan, escape their abusers, and live fulfilling and abuse-free lives. We aim to put victims in touch with needed resources, by making resources easy to find, and providing helpful advice along the way.
+##### Who We Are:
+> We are dedicated to helping victims of domestic abuse develop a safety plan, escape their abusers, and live fulfilling and abuse-free lives. We aim to put victims in touch with needed resources, by making resources easy to find, and providing helpful advice along the way.
 
 
 
